@@ -1,0 +1,579 @@
+/************************************ Disclaimer ************************************/
+
+.swal-overlay {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.swal-modal {
+	background-color: rgba(177, 215, 230, 0.8);
+	border: 2px solid rgba(177, 215, 230, 0.8);
+	width: 75%;
+	;
+}
+
+.swal-button {
+	padding: 7px 19px;
+	border-radius: 2px;
+	background-color: #4962B3;
+	font-size: 12px;
+	border: 1px solid #3e549a;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+/***************************** Font for Company name ********************************/
+@font-face {
+	font-family: Colus;
+	src: url(../fonts/Colus-Regular.ttf);
+}
+
+/*************************** Navbar *************************/
+#nav {
+	background-color: rgb(20, 20, 20);
+}
+
+.navlogo {
+	padding-left: 10px;
+}
+
+.imgh {
+	width: 50px;
+	height: 50px;
+}
+
+a.navbar-brand {
+	font-family: Colus, serif;
+	color: rgb(3, 183, 254);
+}
+
+.navbar-toggler {
+	float: right;
+}
+
+/*************************** Body *****************************/
+body {
+	box-sizing: bordpadding;
+	background-color: rgba(15, 15, 15);
+}
+
+.head {
+	font-size: 45px;
+	text-align: center;
+	color: rgb(3, 183, 254);
+}
+
+/************************* footer ******************************/
+footer {
+	text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px white;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	color: white;
+	background-color: rgb(20, 20, 20);
+}
+
+.footp {
+	font-size: 10px;
+	padding-top: 20px;
+	line-height: 0.5px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.fab:hover {
+	opacity: 0.7;
+}
+
+footer .fab {
+	padding: 10px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 2px;
+}
+
+.fa-instagram,
+.fa-telegram,
+.fa-twitter,
+.fa-whatsapp {
+	color: rgb(3, 183, 254);
+}
+
+/************************* index.html styling ***********************/
+#maindiv {
+	background: url("../images/home.jpg");
+	height: 700px;
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+}
+
+.heading1 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+
+#main2 {
+	width: 40%;
+	padding-top: 100px;
+	padding-left: 100px;
+	text-align: left;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
+	font-size: 15px;
+
+}
+
+.butn {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 5px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(8, 44, 99);
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.07),
+		5px 5px 12px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+/************************************* Contact **************************************/
+.cmain {
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: rgb(15, 15, 15);
+	color: white;
+}
+
+.fa-envelope {
+	padding-left: 5px;
+}
+
+.fa-phone-alt {
+	padding-left: 5px;
+}
+
+.subhead {
+	text-align: center;
+	color: rgb(3, 183, 254);
+	font-size: 20px;
+}
+
+/************Form*************/
+/*.wrapper{
+	background: black;
+
+}
+
+.wrapper h2{
+  text-align: left;
+  margin-bottom: 20px;
+  padding-left: 75px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.wrapper .input_field{
+  margin-bottom: 15px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 100px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.maininp{
+	
+	text-align: center;
+	padding-left: 75px;
+	padding-right: 50%;
+}
+
+
+*/
+
+/********************************* Learn *************************/
+
+#learn-main {
+	margin-bottom: 50px;
+}
+
+.butL:hover,
+a:hover {
+	opacity: 0.5;
+}
+
+.butL {
+	border: none;
+	outline: 0;
+	padding-top: 0px;
+	padding-right: 18px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(8, 44, 99);
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.08),
+		5px 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pdftxt {
+	padding-left: 10px;
+}
+
+.pdf {
+	font-family: arial;
+	color: white;
+	background-color: #222;
+	padding: 1%;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	box-shadow: -5px -5px 12px rgba(255, 255, 255, 0.08),
+		5px 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+	margin: 10px;
+	padding-right: 12%;
+	padding-left: 12%;
+}
+
+
+/*********************************** About ****************************/
+
+.para {
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.card {
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 10px;
+	font-family: arial;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.01);
+	box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.1),
+		-3px -3px 8px rgba(255, 255, 255, 0.1);
+}
+
+.image-div {
+	align-self: center;
+	margin-left: 10px;
+}
+
+.card>.row {
+	margin: 0px;
+	padding: 0px;
+}
+
+.card-title {
+	margin-top: 10px;
+	margin-left: 10px;
+	color: rgb(3, 183, 254);
+}
+
+.abt-img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.iconsabt {
+	margin: -5px;
+	display: inline;
+
+}
+
+.abt-info {
+	margin-left: 10px;
+	font-size: 14px;
+	padding-right: 0px;
+	color: rgb(255, 255, 255);
+}
+
+.icc {
+	color: rgb(3, 183, 254);
+	font-size: 20px;
+}
+
+section.email-id {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.email-id {
+	margin-left: 10px;
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+/****************Responsive**************************/
+
+/*************Large Devices**************************/
+@media(min-width: 992px) {
+	#mobile-div {
+		display: none;
+	}
+}
+
+/*************Medium Devices*************************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#maindiv {
+		background: url(../images/home_laptop_sm.jpg) no-repeat;
+		background-size: 100% 640px;
+		height: 640px;
+		padding-top: 0px;
+	}
+
+	#main2 {
+		width: 40%;
+		padding-top: 100px;
+		padding-left: 30px;
+		text-align: left;
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 2px white;
+		font-size: 15px;
+
+	}
+
+	#mobile-div {
+		display: none;
+	}
+}
+
+/************Small Devices**************************/
+@media (min-width: 450px) and (max-width: 767px) {
+
+
+	/******************* Navbar ******************/
+	.navlogo {
+		padding-left: 20px;
+	}
+
+	.imgh {
+		width: 45px;
+		height: 45px;
+	}
+
+	/************** Body *****************/
+	.head {
+		font-size: 30px;
+	}
+
+	/*************** Home ***************/
+	#maindiv {
+		background: url(../images/hometab.jpg) no-repeat;
+		background-size: 100% 280px;
+		height: 280px;
+		padding-top: 0px;
+	}
+
+	#main2 {
+		display: none;
+	}
+
+	#mobile-div {
+		background-color: rgb(15, 15, 15);
+		color: white;
+		padding-top: 20px;
+		padding-left: 10px;
+		height: auto;
+		text-align: center;
+	}
+
+	/**************** Contact *************/
+	.cmain {
+		padding-top: 20px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.head {
+		font-size: 40px;
+	}
+
+	/**************** About ***************/
+
+	.card {
+		margin: auto;
+		margin-top: 30px;
+		border-radius: 10px;
+		font-family: arial;
+		border: none;
+		background-color: rgba(0, 0, 0, 0.01);
+		box-shadow: none;
+	}
+
+	.card>.row {
+		display: flexbox;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.image-div {
+		justify-self: center;
+	}
+
+	.abt-img {
+		width: 200px;
+		border-radius: 50%;
+		box-shadow: 5px 5px 8px rgba(255, 255, 255, 0.1),
+			-5px -5px 8px rgba(255, 255, 255, 0.1);
+	}
+
+	.card-title {
+		text-align: center;
+		color: rgb(3, 183, 254);
+	}
+
+	.abt-bottom {
+		text-align: center;
+	}
+
+}
+
+/*************************** Mobile Version ***************************/
+@media (max-width: 449px) {
+
+	/************** Navbar ***************/
+	.navlogo {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.imgh {
+		width: 45px;
+		height: 45px;
+	}
+
+	/************** Body *****************/
+	.head {
+		font-size: 40px;
+	}
+
+	/************** Home *****************/
+
+	#mobile-div {
+		background-color: rgb(15, 15, 15);
+		color: white;
+		padding-top: 20px;
+		padding-left: 10px;
+		height: auto;
+		text-align: center;
+	}
+
+	#main2 {
+		display: none;
+	}
+
+	#maindiv {
+		background: url(../images/homemob.jpg) no-repeat;
+		background-size: 100% 249px;
+		height: 249px;
+		padding-top: 0px;
+	}
+
+	#ltd {
+		display: none;
+	}
+
+	/*************** Contact **************/
+
+	.cmain {
+		padding-top: 20px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	/**************** About **************/
+
+	.card {
+		margin: auto;
+		margin-top: 30px;
+		border-radius: 10px;
+		font-family: arial;
+		border: none;
+		background-color: rgba(0, 0, 0, 0.01);
+		box-shadow: none;
+	}
+
+	.card>.row {
+		display: flexbox;
+		justify-content: center;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.image-div {
+		justify-self: center;
+	}
+
+	.abt-img {
+		width: 200px;
+		border-radius: 50%;
+		box-shadow: 3px 3px 8px rgba(255, 255, 255, 0.1),
+			-3px -3px 8px rgba(255, 255, 255, 0.1);
+	}
+
+	.card-title {
+		text-align: center;
+		color: rgb(3, 183, 254);
+	}
+
+	.abt-info {
+		text-align: center;
+	}
+
+	.iconsabt {
+		text-align: center;
+	}
+
+}
