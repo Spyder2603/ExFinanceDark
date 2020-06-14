@@ -7,8 +7,9 @@
 .swal-modal {
 	background-color: rgba(177, 215, 230, 0.8);
 	border: 2px solid rgba(177, 215, 230, 0.8);
-	width: 75%;
-	;
+	width: 80%;
+	height: 500px;
+	overflow-y: auto;
 }
 
 .swal-button {
@@ -286,8 +287,8 @@ a:hover {
 
 .para {
 	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .card {
@@ -323,7 +324,7 @@ a:hover {
 }
 
 .iconsabt {
-	margin: -5px;
+	margin: 10px;
 	display: inline;
 
 }
@@ -572,7 +573,7 @@ section.email-id {
 		text-align: center;
 	}
 
-	.iconsabt {
+	.abt-bottom {
 		text-align: center;
 	}
 
